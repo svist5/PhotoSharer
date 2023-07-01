@@ -11,7 +11,7 @@ const bodyParser = require("body-parser");
 app.use(cookieParser());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(cors({ 
-    origin: 'http://localhost:5173', // Replace with your frontend domain
+    origin: 'https://649fe45613d46c0f535485d7--exquisite-gingersnap-702fc2.netlify.app', // Replace with your frontend domain
     credentials: true // Enable cookies and other credentials in CORS requests
   }));
 app.use(express.json());
